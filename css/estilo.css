@@ -25,7 +25,8 @@ body {
 .logo {
     font-family: var(--fonte-titulo);
     color: white;
-    padding-left: 2em;
+    padding-left: 3em;
+    letter-spacing: 0.3em;
 }
 
 .cabecalho a {
