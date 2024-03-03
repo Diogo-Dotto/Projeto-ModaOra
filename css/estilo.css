@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/*fonte padrão de texto "Roboto", sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');/*Fonte de títulos "Viaoda Libre", serif; */
+
+:root {
+    --fonte-padrao: "Roboto", sans-serif;
+    --fonte-titulo: "Viaoda Libre", serif;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color: #ebe7e7;
+    color:#555;
+}
+
+.cabecalho {
+    background-color: #162028;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: var(--fonte-titulo);
+    color: white;
+    padding-left: 2em;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #425564;
+}
+
+.cabecalho ul {
+    display: flex;
+    gap: 16px;
+    padding-right: 2em;
+}
+
+.cabecalho ul li {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 2em;
+    font-family: var(--fonte-padrao);
+}
+
+.imagem-topo {
+    width: 100%;
+    background-position: left;
+}
+
+.texto1 {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.subtitulo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.9em;
+    margin-bottom: 1em;
+}
+
+.texto-subtitulo {
+    line-height: 1.5;
+    font-family: var(--fonte-padrao);
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.modelos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 6em 0;
+}
+
+.nome-modelo {
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.descricao-modelo {
+    text-align: center;
+    font-family: var(--fonte-padrao);
+}
+
+.texto2 {
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37.5em;
+    color: white;
+}
+
+.subtitulo2 {
+    padding: 4em 5% 0;
+    font-size: 2em;
+    font-family: var(--fonte-titulo);
+}
+
+.texto-subtitulo2 {
+    padding: 1em 5% 0;
+    font-family: var(--fonte-padrao);
+    width: 70%;
+    font-size: 1.2em;
+}
+
+.rodape {
+    background-color: #0b171f;
+    padding: 5px;
+    text-align: center;
+    color: #6f8597;
+    font-family: var(--fonte-padrao);
+    letter-spacing: 4px;
+}
